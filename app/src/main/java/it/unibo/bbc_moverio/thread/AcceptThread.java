@@ -1,4 +1,4 @@
-package it.unibo.bbc_moverio;
+package it.unibo.bbc_moverio.thread;
 
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothServerSocket;

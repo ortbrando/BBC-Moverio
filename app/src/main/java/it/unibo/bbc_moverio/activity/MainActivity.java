@@ -1,4 +1,4 @@
-package it.unibo.bbc_moverio;
+package it.unibo.bbc_moverio.activity;
 
 import android.bluetooth.BluetoothAdapter;
 import android.content.Intent;
@@ -10,6 +10,9 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
+
+import it.unibo.bbc_moverio.R;
+import it.unibo.bbc_moverio.thread.AcceptThread;
 
 
 public class MainActivity extends ActionBarActivity {
