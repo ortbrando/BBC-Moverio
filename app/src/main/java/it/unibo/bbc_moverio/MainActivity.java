@@ -32,7 +32,7 @@ public class MainActivity extends ActionBarActivity {
                 String retString = (String)msg.obj;
                 String[] s = retString.split("/");
                 latText.setText((s[0]));
-                longText.setText((s[01]));
+                longText.setText((s[1]));
             }
         };
         if (!mBluetoothAdapter.isEnabled()) {
